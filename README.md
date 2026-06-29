@@ -68,6 +68,7 @@ Coming soon...
 ### Enterprise AI Engineering
 
 Coming soon...
+
 ---
 
 The AI Software Engineering Playbook is an open educational initiative by [Abdul Bari Shaikh on LinkedIn](https://www.linkedin.com/in/abdul-bari-shaikh-etm/) exploring practical engineering patterns for AI-assisted software development.
