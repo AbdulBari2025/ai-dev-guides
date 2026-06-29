@@ -1,13 +1,22 @@
 ---
 layout: page
-title: "Claude Code + Vue.js - Agent-First Development Guide"
+title: "Building Vue.js Applications with AI - Agent-First Development Guide"
 description: "Coming soon: build Vue 3, Vite, Pinia, VS Code projects in minutes using iterative Claude Code agents."
 permalink: /vuejs/
 ---
 
-# Claude Code + Vue.js
+# Building Vue.js Applications with AI
 
-**Stack:** Vue 3, Vite, Pinia, VS Code
+**Stack**
+Vue 3
+Vite
+Pinia
+
+**IDE**
+VS Code
+
+**Coding assistant**
+Claude Code
 
 > This guide is coming soon. [Follow Abdul Bari Shaikh on LinkedIn](https://www.linkedin.com/in/abdul-bari-shaikh-etm/) to get notified when it publishes.
 
@@ -18,4 +27,4 @@ permalink: /vuejs/
 - A complete proof-of-concept built start-to-finish with Claude Code
 - Screenshots and video walkthrough of the full workflow
 
-*Part of the [Ship It with Claude Code](../) series.*
+*Part of the [The AI Software Engineering Playbook](../) series.*

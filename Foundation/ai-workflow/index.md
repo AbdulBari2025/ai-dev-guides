@@ -3,7 +3,7 @@ layout: default
 title: Stop micro-managing your AI
 ---
 
-# Still Coding Traditionally in the AI Era? Stop Micro-managing Your AI.
+# Working with AI as a Development Partner? Seven engineering habits for AI-assisted software development.
 
 *A beginner-friendly guide for anyone who wants AI to do the heavy lifting — properly.*
 
@@ -29,10 +29,10 @@ Most people use Claude Chat and Claude Code interchangeably. That is the mistake
 
 They have completely different jobs and you should never ask one to do the other's work.
 
-**Claude Chat is your architect.**
+**Use Claude Chat for thinking.**
 Use it to brainstorm, prioritise, and make decisions before a single line of code is written. Ask it to help you think through features for the current sprint, weigh architectural options, and understand trade-offs. When you have made a decision, ask Claude Chat to write the Claude Code prompt for you — in the structured instructional format this guide teaches.
 
-**Claude Code is your code assistant.**
+**Use Claude Code for execution.**
 It receives that prompt, reads your actual files, writes and runs the code, iterates until the tests pass, and commits the result. It does not make architectural decisions. It executes them.
 
 **The rule that makes this work:**
@@ -57,7 +57,9 @@ The result: Claude Chat keeps the big picture. Claude Code handles the details. 
 
 ---
 
-## What Claude Code and MCP actually are
+## Choosing the right AI development tools
+
+Examples in this guide use Claude Code and GitHub MCP.
 
 **Claude Code** is Claude running directly in your terminal or IDE — not a chat window, but an agent with real access to your files, your tests, and your git history.
 
@@ -71,7 +73,7 @@ The result: an autonomous coding agent that iterates until the job is done.
 
 ---
 
-### Habit 1 — Give Claude a map before it touches anything
+### Engineering Habit 1 — Give Claude a map before it touches anything
 
 The single biggest source of AI coding mess is Claude not knowing where it is. Fix this in 30 seconds with a context block at the top of every prompt:
 
@@ -87,7 +89,7 @@ This is not over-engineering. It is the difference between Claude editing the ri
 
 ---
 
-### Habit 2 — Make Claude read before it writes
+### Engineering Habit 2 — Make Claude read before it writes
 
 The most common Claude Code failure: it edits code it has not actually read. Add read first as an explicit step:
 
@@ -104,7 +106,7 @@ Claude edits based on what the file actually contains right now — not how it l
 
 ---
 
-### Habit 3 — Tell Claude exactly what success looks like
+### Engineering Habit 3 — Tell Claude exactly what success looks like
 
 Vague: *make sure it works*
 
@@ -120,7 +122,7 @@ The second version gives Claude a pass/fail signal it can act on without asking 
 
 ---
 
-### Habit 4 — Name what Claude must not touch
+### Engineering Habit 4 — Name what Claude must not touch
 
 You have probably had AI helpfully refactor something you did not ask about. Stop this permanently:
 
@@ -134,7 +136,7 @@ You have probably had AI helpfully refactor something you did not ask about. Sto
 
 ---
 
-### Habit 5 — One change, one commit, one message
+### Engineering Habit 5 — One change, one commit, one message
 
 Ask Claude to commit after each fix in a specific format:
 
@@ -147,7 +149,7 @@ Clean git history automatically. When something breaks three days from now you c
 
 ---
 
-### Habit 6 — Verify at every step, not just the end
+### Engineering Habit 6 — Verify at every step, not just the end
 
 Do not save all testing for the last step. Verify after every meaningful change:
 
@@ -167,7 +169,7 @@ Catching a broken import in step 2 takes five seconds. Catching it after five mo
 
 ---
 
-### Habit 7 — Let Claude iterate autonomously until it gets it right
+### Engineering Habit 7 — Let Claude iterate autonomously until it gets it right
 
 **This is the habit that changes everything.**
 
