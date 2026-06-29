@@ -1,13 +1,14 @@
 ---
 layout: default
-title: Stop micro-managing your AI
+title: Working with AI as a development partner. Seven engineering habits for AI-assisted software development
 ---
 
-# Working with AI as a Development Partner? Seven engineering habits for AI-assisted software development.
+# Working with AI as a Development Partner?
+## A practical workflow for AI-assisted software engineering.
 
-*A beginner-friendly guide for anyone who wants AI to do the heavy lifting — properly.*
+*A practical guide for developers who want AI to become a reliable engineering partner.*
 
-*Part of the [Ship It with Claude Code](../) series by [Abdul Bari Shaikh](https://www.linkedin.com/in/abdul-bari-shaikh-etm/)*
+*Part of the **The AI Software Engineering Playbook** series by [Abdul Bari Shaikh](https://www.linkedin.com/in/abdul-bari-shaikh-etm/)*
 
 ---
 
@@ -19,7 +20,7 @@ Forty-five minutes later you have had twelve conversations, your tab bar is a di
 
 **This is not how it has to work.**
 
-There is a different way — one where you write the goal once, Claude iterates autonomously until it succeeds, runs its own tests, commits the result, and hands back to you when done.
+There is a different way — Instead of managing every compilation error yourself, define the objective once and let your coding assistant work towards it. This guide demonstrates the workflow using Claude Code and GitHub MCP, but the engineering practices apply regardless of the coding assistant you use. One where you write the goal once, Claude iterates autonomously until it succeeds, runs its own tests, commits the result, and hands back to you when done.
 
 ---
 
@@ -48,7 +49,7 @@ When you are unsure whether to use a REST API or GraphQL, do not ask Claude Code
 
 1. Open Claude Chat — brainstorm the features for this sprint
 2. Claude Chat helps you prioritise and make the architectural call
-3. Claude Chat writes the Claude Code prompt for the first feature
+3. Claude Chat helps prepare a structured implementation plan and prompt, which is then executed by Claude Code for the first feature
 4. Paste that prompt into Claude Code — it reads, writes, tests, commits
 5. Return to Claude Chat for the next feature or decision
 6. Repeat
@@ -69,11 +70,11 @@ The result: an autonomous coding agent that iterates until the job is done.
 
 ---
 
-## The 7 habits that make it work
+## Core Engineering Practices
 
 ---
 
-### Engineering Habit 1 — Give Claude a map before it touches anything
+### Engineering Practice 1 — Give Claude a map before it touches anything
 
 The single biggest source of AI coding mess is Claude not knowing where it is. Fix this in 30 seconds with a context block at the top of every prompt:
 
@@ -89,7 +90,7 @@ This is not over-engineering. It is the difference between Claude editing the ri
 
 ---
 
-### Engineering Habit 2 — Make Claude read before it writes
+### Engineering Practice 2 — Make Claude read before it writes
 
 The most common Claude Code failure: it edits code it has not actually read. Add read first as an explicit step:
 
@@ -106,7 +107,7 @@ Claude edits based on what the file actually contains right now — not how it l
 
 ---
 
-### Engineering Habit 3 — Tell Claude exactly what success looks like
+### Engineering Practice 3 — Tell Claude exactly what success looks like
 
 Vague: *make sure it works*
 
@@ -122,7 +123,7 @@ The second version gives Claude a pass/fail signal it can act on without asking 
 
 ---
 
-### Engineering Habit 4 — Name what Claude must not touch
+### Engineering Practice 4 — Name what Claude must not touch
 
 You have probably had AI helpfully refactor something you did not ask about. Stop this permanently:
 
@@ -136,7 +137,7 @@ You have probably had AI helpfully refactor something you did not ask about. Sto
 
 ---
 
-### Engineering Habit 5 — One change, one commit, one message
+### Engineering Practice 5 — One change, one commit, one message
 
 Ask Claude to commit after each fix in a specific format:
 
@@ -149,7 +150,7 @@ Clean git history automatically. When something breaks three days from now you c
 
 ---
 
-### Engineering Habit 6 — Verify at every step, not just the end
+### Engineering Practice 6 — Verify at every step, not just the end
 
 Do not save all testing for the last step. Verify after every meaningful change:
 
@@ -169,7 +170,7 @@ Catching a broken import in step 2 takes five seconds. Catching it after five mo
 
 ---
 
-### Engineering Habit 7 — Let Claude iterate autonomously until it gets it right
+### Engineering Practice 7 — Let Claude iterate autonomously until it gets it right
 
 **This is the habit that changes everything.**
 
@@ -245,7 +246,7 @@ Commit: git commit -m "[type(scope): description]"
 
 ## Before and after
 
-| | Traditional AI coding | Agent-first approach |
+| | Traditional Prompting | AI-assisted Software Engineering |
 |---|---|---|
 | Messages sent | 10 to 15 | 1 |
 | Context lost | Every session | Never |
@@ -256,9 +257,9 @@ Commit: git commit -m "[type(scope): description]"
 
 ---
 
-## Quick reference card
+## Engineering Practices Summary
 
-| Habit | Problem it solves |
+| Engineering Practice | Problem it solves |
 |---|---|
 | Claude Chat for architecture | Mixing decisions and code causes both to suffer |
 | Claude Code for execution | Chat cannot see your files or run your tests |
@@ -274,6 +275,6 @@ Commit: git commit -m "[type(scope): description]"
 
 *For more guides like this — follow [Abdul Bari Shaikh on LinkedIn](https://www.linkedin.com/in/abdul-bari-shaikh-etm/) and turn on notifications.*
 
-*Next guide: [MERN Stack with Claude Code](../mern-stack/) — coming soon.*
+*Next guide: [Another Foundation Guide coming soon.](../mern-stack/) — coming soon.*
 
 *[Back to all guides](../)*
