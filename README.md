@@ -45,6 +45,7 @@ Learn how to set up a modern AI-assisted development environment on Windows usin
 Learn practical engineering patterns for working with AI coding assistants, including planning, autonomous iteration, testing, verification and Git workflows.
 
 ➡️ **[Read Guide](./foundation/ai-workflow/)**
+
 ---
 
 ## Curriculum
