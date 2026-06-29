@@ -520,3 +520,15 @@ git pull
 | `api.githubcopilot.com` returns 401 | That endpoint requires Copilot subscription — use the npm package approach instead |
 | `(.venv)` not showing in prompt | Run `.venv\Scripts\activate` from project root |
 | Claude Code auth loop | Run `claude logout` then `claude` again to re-authenticate |
+
+---
+
+*For more guides like this — follow [Abdul Bari Shaikh on LinkedIn](https://www.linkedin.com/in/abdul-bari-shaikh-etm/) and turn on notifications.*
+
+---
+
+This guide is part of **The AI Software Engineering Playbook** — a growing collection of practical engineering patterns for AI-assisted software development.
+
+Additional Foundation, Application Development, and Enterprise guides will be published over time.
+
+[Back to the Playbook](../../)

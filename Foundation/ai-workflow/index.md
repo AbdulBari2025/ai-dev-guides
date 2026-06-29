@@ -300,4 +300,4 @@ This guide is part of **The AI Software Engineering Playbook** — a growing col
 
 Additional Foundation, Application Development, and Enterprise guides will be published over time.
 
-[Back to the Playbook](../)
+[Back to the Playbook](../../)
