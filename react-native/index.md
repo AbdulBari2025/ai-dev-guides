@@ -1,4 +1,4 @@
-﻿---
+---
 layout: page
 title: "Claude Code + React Native - Agent-First Development Guide"
 description: "Coming soon: build React Native, Expo, VS Code projects in minutes using iterative Claude Code agents."
@@ -9,7 +9,7 @@ permalink: /react-native/
 
 **Stack:** React Native, Expo, VS Code
 
-> This guide is coming soon. [Follow Abdul Shaikh on LinkedIn](https://www.linkedin.com/in/abdulbarishaikh/) to get notified when it publishes.
+> This guide is coming soon. [Follow Abdul Bari Shaikh on LinkedIn](https://www.linkedin.com/in/abdul-bari-shaikh-etm/) to get notified when it publishes.
 
 ## What this guide will cover
 
