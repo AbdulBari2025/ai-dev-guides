@@ -1,26 +1,75 @@
-# Ship It with Claude Code � Developer Guide Series
+---
+layout: default
+title: The AI Software Engineering Playbook
+subtitle: Practical engineering patterns for AI-assisted software development.
+---
 
-Practical guides for developers, students, and interns working with AI tools.
+## Guiding Principles
 
-**Live site:** https://abdulbari2025.github.io/ai-dev-guides/
+The playbook is built on three ideas:
 
-| Guide | Stack | Status |
-|-------|-------|--------|
-| [Claude Code Prompts](./claude-code-prompts/) | Python, any stack | Live |
-| [MERN Stack](./mern-stack/) | MongoDB, Express, React, Node | Coming soon |
-| [Next.js + TypeScript](./nextjs-typescript/) | Next.js, Tailwind, Prisma | Coming soon |
-| [Flutter Mobile](./flutter-mobile/) | Dart, Flutter | Coming soon |
-| [Java Spring Boot](./java-spring-boot/) | Spring Boot, PostgreSQL | Coming soon |
-| [React Native](./react-native/) | React Native, Expo | Coming soon |
-| [Python FastAPI](./python-fastapi/) | FastAPI, SQLAlchemy, Docker | Coming soon |
-| [MEAN Stack](./mean-stack/) | MongoDB, Express, Angular, Node | Coming soon |
-| [.NET / C#](./dotnet-csharp/) | ASP.NET Core, Entity Framework | Coming soon |
-| [iOS Swift](./ios-swift/) | SwiftUI, Swift, Xcode | Coming soon |
-| [Android Kotlin](./android-kotlin/) | Kotlin, Jetpack Compose | Coming soon |
-| [Go Backend](./go-backend/) | Go, Gin, PostgreSQL | Coming soon |
-| [Vue.js](./vuejs/) | Vue 3, Vite, Pinia | Coming soon |
-| [Django Full Stack](./django-fullstack/) | Django, HTMX, PostgreSQL | Coming soon |
-| [Data Science](./data-science/) | Python, Jupyter, pandas | Coming soon |
-| [DevOps + IaC](./devops-iac/) | Terraform, Docker, GitHub Actions | Coming soon |
-| [PHP Laravel](./php-laravel/) | Laravel, Livewire, MySQL | Coming soon |
-| [Rust](./rust/) | Rust, Cargo, Actix | Coming soon |
+- AI should complement established software engineering practices, not replace them.
+- Engineering principles outlast individual AI tools.
+- Effective AI-assisted development requires structure, verification and collaboration.
+
+Modern AI can generate code.
+
+Professional software engineering requires much more than code generation.It requires planning, verification, collaboration and disciplined engineering practices.
+
+The question is no longer:
+
+> Can AI write code?
+
+The question is:
+
+> How do developers and engineering teams work effectively with AI?
+
+The AI Software Engineering Playbook is a growing collection of practical guides that help developers integrate AI into professional software engineering workflows.
+
+The playbook focuses on engineering practices rather than individual AI tools, making the guidance applicable as coding assistants continue to evolve.
+
+---
+
+## Published Guides
+
+### 📘 AI-assisted Development Environment
+
+Learn how to set up a modern AI-assisted development environment on Windows using VS Code, Git, GitHub MCP and Claude Code.
+
+➡️ **[Read Guide](./foundation/ai-dev-environment/)**
+
+---
+
+### 📘 Working with AI as a Development Partner
+
+Learn practical engineering patterns for working with AI coding assistants, including planning, autonomous iteration, testing, verification and Git workflows.
+
+➡️ **[Read Guide](./foundation/ai-workflow/)**
+---
+
+## Curriculum
+
+### Foundation
+
+✅ AI-assisted Development Environment
+
+✅ Working with AI as a Development Partner
+
+🟡 More Foundation Guides
+
+---
+
+### Application Development
+
+Coming soon...
+
+---
+
+### Enterprise AI Engineering
+
+Coming soon...
+---
+
+The AI Software Engineering Playbook is an open educational initiative by [Abdul Bari Shaikh on LinkedIn](https://www.linkedin.com/in/abdul-bari-shaikh-etm/) exploring practical engineering patterns for AI-assisted software development.
+
+Follow on LinkedIn for new guides and updates.
