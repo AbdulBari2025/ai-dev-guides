@@ -45,6 +45,7 @@ Learn how to set up a modern AI-assisted development environment on Windows usin
 Learn practical engineering patterns for working with AI coding assistants, including planning, autonomous iteration, testing, verification and Git workflows.
 
 ➡️ **[Read Guide](./foundation/ai-workflow/)**
+
 ---
 
 ## Curriculum
@@ -68,6 +69,7 @@ Coming soon...
 ### Enterprise AI Engineering
 
 Coming soon...
+
 ---
 
 The AI Software Engineering Playbook is an open educational initiative by [Abdul Bari Shaikh on LinkedIn](https://www.linkedin.com/in/abdul-bari-shaikh-etm/) exploring practical engineering patterns for AI-assisted software development.
