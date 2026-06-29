@@ -1,7 +1,11 @@
 title: The AI Software Engineering Playbook
-description: Practical engineering patterns for AI-assisted software development across every major stack and IDE.
- — by Abdul Bari Shaikh
+
+description: >-
+  Practical engineering patterns for AI-assisted software development across
+  every major stack and IDE.
+
 theme: jekyll-theme-minimal
+
 author:
   name: Abdul Bari Shaikh
   url: https://www.linkedin.com/in/abdul-bari-shaikh-etm/
