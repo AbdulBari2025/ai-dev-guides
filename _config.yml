@@ -1,18 +1,9 @@
-﻿title: "Ship It with Claude Code"
-description: "Agent-first development guides for every major stack and IDE — by Abdul Bari Shaikh"
-author: "Abdul Bari Shaikh"
-url: "https://abdulbari2025.github.io"
-baseurl: "/ai-dev-guides"
-
-remote_theme: pages-themes/cayman@v0.2.0
+﻿title: Ship It with Claude Code
+description: Agent-first development guides for every major stack and IDE — by Abdul Bari Shaikh
+author: Abdul Bari Shaikh
+url: https://abdulbari2025.github.io
+baseurl: /ai-dev-guides
+theme: minima
 plugins:
-  - jekyll-remote-theme
-  - jekyll-seo-tag
   - jekyll-feed
-
-markdown: kramdown
-highlighter: rouge
-
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
+  - jekyll-seo-tag
