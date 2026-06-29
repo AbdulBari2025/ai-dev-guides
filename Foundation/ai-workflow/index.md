@@ -1,15 +1,30 @@
 ---
 layout: default
-title: Working with AI as a development partner. Seven engineering habits for AI-assisted software development
+title: Working with AI as a Development Partner. 
 ---
 
-# Working with AI as a Development Partner?
-## A practical workflow for AI-assisted software engineering.
+# Working with AI as a Development Partner
+## A practical workflow for AI-assisted software engineering
 
-*A practical guide for developers who want AI to become a reliable engineering partner.*
+*A practical guide for developers who want AI to become a productive and reliable engineering partner.*
 
-*Part of the **The AI Software Engineering Playbook** series by [Abdul Bari Shaikh](https://www.linkedin.com/in/abdul-bari-shaikh-etm/)*
+*Part of **The AI Software Engineering Playbook** series by [Abdul Bari Shaikh](https://www.linkedin.com/in/abdul-bari-shaikh-etm/)*
 
+> ## What you'll learn
+>
+> After completing this guide, you'll be able to:
+>
+> ✔ Structure effective AI-assisted development workflows
+>
+> ✔ Reduce repetitive prompting and context switching
+>
+> ✔ Keep implementation aligned with architectural decisions
+>
+> ✔ Improve code quality through verification and traceability
+>
+> ✔ Apply these engineering practices with modern AI coding assistants
+
+> **Audience:** Developers, software engineers, technical leads and architects exploring AI-assisted software development.
 ---
 
 ## Sound familiar?
@@ -20,7 +35,11 @@ Forty-five minutes later you have had twelve conversations, your tab bar is a di
 
 **This is not how it has to work.**
 
-There is a different way — Instead of managing every compilation error yourself, define the objective once and let your coding assistant work towards it. This guide demonstrates the workflow using Claude Code and GitHub MCP, but the engineering practices apply regardless of the coding assistant you use. One where you write the goal once, Claude iterates autonomously until it succeeds, runs its own tests, commits the result, and hands back to you when done.
+There is a better approach.
+
+Instead of managing every compilation error yourself, define the objective once and let your coding assistant iterate towards it.
+This guide demonstrates that workflow using Claude Code and GitHub MCP, but the engineering practices apply regardless of the coding assistant you choose.
+The result is fewer interruptions, less context switching, and a more structured development workflow.
 
 ---
 
@@ -48,7 +67,7 @@ When you are unsure whether to use a REST API or GraphQL, do not ask Claude Code
 **A typical sprint workflow looks like this:**
 
 1. Open Claude Chat — brainstorm the features for this sprint
-2. Claude Chat helps you prioritise and make the architectural call
+2. Claude Chat helps you analyse requirements, refine user stories, evaluate implementation options, and prepare a structured implementation prompt.
 3. Claude Chat helps prepare a structured implementation plan and prompt, which is then executed by Claude Code for the first feature
 4. Paste that prompt into Claude Code — it reads, writes, tests, commits
 5. Return to Claude Chat for the next feature or decision
@@ -58,7 +77,7 @@ The result: Claude Chat keeps the big picture. Claude Code handles the details. 
 
 ---
 
-## Choosing the right AI development tools
+## Tools Used in This Guide
 
 Examples in this guide use Claude Code and GitHub MCP.
 
@@ -70,7 +89,7 @@ The result: an autonomous coding agent that iterates until the job is done.
 
 ---
 
-## Core Engineering Practices
+## The Seven Engineering Practices
 
 ---
 
@@ -172,7 +191,7 @@ Catching a broken import in step 2 takes five seconds. Catching it after five mo
 
 ### Engineering Practice 7 — Let Claude iterate autonomously until it gets it right
 
-**This is the habit that changes everything.**
+**This practice enables autonomous iteration.**
 
 Some tasks cannot be solved in a single pass. Instead of sending follow-up messages for each iteration, write the loop directly into the prompt:
 
@@ -246,7 +265,7 @@ Commit: git commit -m "[type(scope): description]"
 
 ## Before and after
 
-| | Traditional Prompting | AI-assisted Software Engineering |
+| | Traditional AI Coding | AI-assisted Software Engineering |
 |---|---|---|
 | Messages sent | 10 to 15 | 1 |
 | Context lost | Every session | Never |
@@ -261,8 +280,8 @@ Commit: git commit -m "[type(scope): description]"
 
 | Engineering Practice | Problem it solves |
 |---|---|
-| Claude Chat for architecture | Mixing decisions and code causes both to suffer |
-| Claude Code for execution | Chat cannot see your files or run your tests |
+| Separate planning from implementation | Mixing decisions and code causes both to suffer |
+| Execute inside the development environment | Chat cannot see your files or run your tests |
 | Context block | Wrong files, wrong branch |
 | Read first | Edits that miss what the code looks like today |
 | Exact verification | Assuming success when tests are failing |
@@ -275,6 +294,10 @@ Commit: git commit -m "[type(scope): description]"
 
 *For more guides like this — follow [Abdul Bari Shaikh on LinkedIn](https://www.linkedin.com/in/abdul-bari-shaikh-etm/) and turn on notifications.*
 
-*Next guide: [Another Foundation Guide coming soon.](../mern-stack/) — coming soon.*
+---
 
-*[Back to all guides](../)*
+This guide is part of **The AI Software Engineering Playbook** — a growing collection of practical engineering patterns for AI-assisted software development.
+
+Additional Foundation, Application Development, and Enterprise guides will be published over time.
+
+[Back to the Playbook](../)
