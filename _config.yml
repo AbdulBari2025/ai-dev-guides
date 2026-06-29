@@ -4,3 +4,9 @@ theme: jekyll-theme-minimal
 author:
   name: Abdul Bari Shaikh
   url: https://www.linkedin.com/in/abdul-bari-shaikh-etm/
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
