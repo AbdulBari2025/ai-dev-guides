@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Stop Babysitting AI
+title: Stop micro-managing your AI
 ---
 
-# Stop Babysitting AI — Let Claude Code Iterate Until It Gets It Right
+# Still Coding Traditionally in the AI Era? Stop Micro-managing Your AI.
 
 *A beginner-friendly guide for anyone who wants AI to do the heavy lifting — properly.*
 
@@ -20,6 +20,40 @@ Forty-five minutes later you have had twelve conversations, your tab bar is a di
 **This is not how it has to work.**
 
 There is a different way — one where you write the goal once, Claude iterates autonomously until it succeeds, runs its own tests, commits the result, and hands back to you when done.
+
+---
+
+## Two tools, two jobs — never mix them up
+
+Most people use Claude Chat and Claude Code interchangeably. That is the mistake.
+
+They have completely different jobs and you should never ask one to do the other's work.
+
+**Claude Chat is your architect.**
+Use it to brainstorm, prioritise, and make decisions before a single line of code is written. Ask it to help you think through features for the current sprint, weigh architectural options, and understand trade-offs. When you have made a decision, ask Claude Chat to write the Claude Code prompt for you — in the structured instructional format this guide teaches.
+
+**Claude Code is your code assistant.**
+It receives that prompt, reads your actual files, writes and runs the code, iterates until the tests pass, and commits the result. It does not make architectural decisions. It executes them.
+
+**The rule that makes this work:**
+
+> Never ask Claude Chat to fix a code error.
+> Never ask Claude Code to make an architectural decision.
+
+When something breaks, do not paste the stack trace into Claude Chat. Write a Claude Code prompt that describes what is failing and what success looks like, and let Claude Code fix it autonomously.
+
+When you are unsure whether to use a REST API or GraphQL, do not ask Claude Code. Open Claude Chat, explain your constraints, and let it help you decide. Then ask it to write the Claude Code prompt that implements the decision.
+
+**A typical sprint workflow looks like this:**
+
+1. Open Claude Chat — brainstorm the features for this sprint
+2. Claude Chat helps you prioritise and make the architectural call
+3. Claude Chat writes the Claude Code prompt for the first feature
+4. Paste that prompt into Claude Code — it reads, writes, tests, commits
+5. Return to Claude Chat for the next feature or decision
+6. Repeat
+
+The result: Claude Chat keeps the big picture. Claude Code handles the details. You stay in control of both without getting lost in either.
 
 ---
 
@@ -209,10 +243,11 @@ Commit: git commit -m "[type(scope): description]"
 
 ## Before and after
 
-| | Manual AI babysitting | Agent-first approach |
+| | Traditional AI coding | Agent-first approach |
 |---|---|---|
 | Messages sent | 10 to 15 | 1 |
 | Context lost | Every session | Never |
+| Architectural decisions | Mixed into code chat | Claude Chat, separately |
 | Git history | One big blob | Clean traceable commits |
 | Time to working code | 45 plus minutes | Minutes |
 | What you do | Paste errors, repeat | Come back to passing tests |
@@ -223,6 +258,8 @@ Commit: git commit -m "[type(scope): description]"
 
 | Habit | Problem it solves |
 |---|---|
+| Claude Chat for architecture | Mixing decisions and code causes both to suffer |
+| Claude Code for execution | Chat cannot see your files or run your tests |
 | Context block | Wrong files, wrong branch |
 | Read first | Edits that miss what the code looks like today |
 | Exact verification | Assuming success when tests are failing |

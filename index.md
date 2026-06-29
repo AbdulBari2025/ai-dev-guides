@@ -10,7 +10,7 @@ Write the goal once, let Claude iterate until it works, come back to passing tes
 
 ## Published Guides
 
-### [Stop Babysitting AI — Claude Code Prompts That Actually Work](./claude-code-prompts/)
+### [Stop Micro-managing AI — Claude Code Prompts That Actually Work](./claude-code-prompts/)
 
 **Stack:** Python, any language · **IDE:** VS Code
 
