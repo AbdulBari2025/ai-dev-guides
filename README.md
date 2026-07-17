@@ -4,6 +4,26 @@ title: The AI Software Engineering Playbook
 subtitle: Practical engineering patterns for AI-assisted software development.
 ---
 
+# The AI Software Engineering Playbook
+
+**Practical engineering patterns for building software with AI — written for engineers, not for tool demos.**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Abdul_Bari_Shaikh-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abdul-bari-shaikh-etm/)
+![Status](https://img.shields.io/badge/status-actively_updated-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-blue)
+
+---
+
+## Contents
+
+- [Guiding Principles](#guiding-principles)
+- [Published Guides](#published-guides)
+- [Curriculum](#curriculum)
+- [Who this is for](#who-this-is-for)
+- [About the author](#about-the-author)
+
+---
+
 ## Guiding Principles
 
 The playbook is built on three ideas:
@@ -12,9 +32,7 @@ The playbook is built on three ideas:
 - Engineering principles outlast individual AI tools.
 - Effective AI-assisted development requires structure, verification and collaboration.
 
-Modern AI can generate code.
-
-Professional software engineering requires much more than code generation.It requires planning, verification, collaboration and disciplined engineering practices.
+Modern AI can generate code. Professional software engineering requires much more than code generation — it requires planning, verification, collaboration, and disciplined engineering practices.
 
 The question is no longer:
 
@@ -22,27 +40,23 @@ The question is no longer:
 
 The question is:
 
-> How do developers and engineering teams work effectively with AI?
+> How do developers and engineering teams work effectively *with* AI?
 
-The AI Software Engineering Playbook is a growing collection of practical guides that help developers integrate AI into professional software engineering workflows.
-
-The playbook focuses on engineering practices rather than individual AI tools, making the guidance applicable as coding assistants continue to evolve.
+This playbook is a growing collection of practical guides that help developers integrate AI into professional software engineering workflows — focused on engineering practices rather than individual tools, so the guidance stays relevant as coding assistants evolve.
 
 ---
 
 ## Published Guides
 
 ### 📘 AI-assisted Development Environment
-
-Learn how to set up a modern AI-assisted development environment on Windows using VS Code, Git, GitHub MCP and Claude Code.
+Set up a modern AI-assisted development environment on Windows using VS Code, Git, GitHub MCP, and Claude Code.
 
 ➡️ **[Read Guide](./foundation/ai-dev-environment/)**
 
 ---
 
 ### 📘 Working with AI as a Development Partner
-
-Learn practical engineering patterns for working with AI coding assistants, including planning, autonomous iteration, testing, verification and Git workflows.
+Practical engineering patterns for working with AI coding assistants — planning, autonomous iteration, testing, verification, and Git workflows.
 
 ➡️ **[Read Guide](./foundation/ai-workflow/)**
 
@@ -51,27 +65,28 @@ Learn practical engineering patterns for working with AI coding assistants, incl
 ## Curriculum
 
 ### Foundation
-
-✅ AI-assisted Development Environment
-
-✅ Working with AI as a Development Partner
-
-🟡 More Foundation Guides
-
----
+- ✅ AI-assisted Development Environment
+- ✅ Working with AI as a Development Partner
+- 🟡 More Foundation Guides — in progress
 
 ### Application Development
-
-Coming soon...
-
----
+- 🔜 Coming soon
 
 ### Enterprise AI Engineering
-
-Coming soon...
+- 🔜 Coming soon — governance, compliance, and regulated-environment patterns for AI adoption at scale
 
 ---
 
-The AI Software Engineering Playbook is an open educational initiative by [Abdul Bari Shaikh on LinkedIn](https://www.linkedin.com/in/abdul-bari-shaikh-etm/) exploring practical engineering patterns for AI-assisted software development.
+## Who this is for
 
-Follow on LinkedIn for new guides and updates.
+Engineers and technical leads who want AI-assisted development to hold up in production — not just in a demo. If you're evaluating how to bring AI coding tools into a team workflow without losing engineering discipline, this is written for you.
+
+---
+
+## About the author
+
+Written by **[Abdul Bari Shaikh](https://www.linkedin.com/in/abdul-bari-shaikh-etm/)** — a transformation professional with 20 years delivering technology and business change across enterprise platforms, AI, and regulated industries (UN, Asian Development Bank, IBM, Accenture). This playbook grew out of applying AI-assisted engineering practices to real enterprise delivery work, not as a side experiment.
+
+📩 Connect or follow for new guides: **[LinkedIn](https://www.linkedin.com/in/abdul-bari-shaikh-etm/)**
+
+If you find a guide useful, a ⭐ on this repo helps others find it too.
